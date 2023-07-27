@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+$primary: rgb(192, 187, 190);
+
+
+/* Importing Bootstrap SCSS file. */
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+
+.fancyFont {
+  font-family: 'Montserrat';
+}
+
+.logo {
+  // border-radius: 20px;
+  border-bottom: 2px solid rgb(42, 233, 223);
+  font-family: 'Montserrat';
+}
+
+a{
+  color:  rgb(42, 233, 223);
+}
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.text-primary{
+  font-size: 18px;
+}

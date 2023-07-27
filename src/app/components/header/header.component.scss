@@ -1,0 +1,36 @@
+@import '../../../styles.scss';
+
+button {
+    margin: 10px;
+    background-color: Transparent;
+    color: $primary;
+
+}
+
+button:hover {
+    color: rgb(0, 204, 255);
+}
+
+.rotate {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .rotate:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  } 
